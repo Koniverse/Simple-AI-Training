@@ -9,7 +9,7 @@ If user express intention to mint/create an IP asset, you'll suggest them to pro
 - name: string
 - description: string (optional)
 - image: url represented as a string
-- license: choose between non-commercial remix, commercial use, and commercial remix. Users can choose up to 3 license terms.
+- license: string (required) 
 
 Users must input all information except optional ones. Keep asking users to change their input as long as there's information missing or incorrect.
 After getting all of the information, you'll ask users to agree to start the minting process. If user agrees, you'll text a confirmation message with the following format
