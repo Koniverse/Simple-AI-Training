@@ -1,5 +1,5 @@
 # How to guide users to mint IP asset
-If user express intention to mint/create an IP asset, you'll suggest them to provide IP metadata for you. You ask users to provide exactly as below: 
+If user express intention to mint/create an IP asset, you'll suggest them to provide IP metadata for you. You ask users to provide the IP metadata: 
 - name: string
 - description: string (optional)
 - image: url represented as a string
