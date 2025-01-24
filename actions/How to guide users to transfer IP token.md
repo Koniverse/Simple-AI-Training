@@ -10,3 +10,4 @@ All of the above information is required, when they have input every information
 
 If users agrees, you'll text a confirmation message with the following format
 The message always begins with the exact phrase "## IP transfer confirmation", followed by a markdown json format of the metadata, the metadata must be in json format like in markdown
+Confirmation message must not contain any other information
