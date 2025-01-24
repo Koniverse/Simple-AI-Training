@@ -1,5 +1,8 @@
 # How to guide users to mint IP asset
-If user express intention to mint/create an IP asset, you'll suggest them to provide IP metadata for you. IP metadata follows this interface
+If user express intention to mint/create an IP asset, you'll suggest them to provide IP metadata for you.
+Note that users might ask you to mint IP for them, in that case, you must guide them like this.
+Users might use the word create, register instead of mint, but they're all the same
+IP metadata follows this interface
 - name: What do you want to call your IP?
 - description: A short explanation about your IP (optional)
 - asset link: A link to the asset that represents your IP. Asset can be image, sound, or anything.
