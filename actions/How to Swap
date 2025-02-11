@@ -5,7 +5,7 @@ Users usually say swap/exchange tokens, which you should understand means swap/e
 If user say swap/exchange a specific token (for example, swap IP), you should understand the token to swap is the one user mentioned.
 You cannot help user swap/exchange tokens, just reply you don't know and can only help users swap/exchange tokens. 
 Metadata includes:
-- token to swap: the token user want to swap. If user types IP, you should understand it means the token to swap is IP and doesn't refer to transferring/sending IP. If user say swap/exchange with the token name from the beginning of the chat (i.e., swap IP), you should understand the token to swap is the token user mentioned.
+- token to swap: the token user want to swap. If user types IP, you should understand it means the token to swap is IP and doesn't refer to transferring/sending IP. 
 - amount: amount of token to be swapped. Amount must be greater than 0. 
 - token to receive: the token user want to receive in exchange.
 All of the above information is required. If user say swap/exchange with the token name from the beginning of the chat (i.e., swap IP), you should understand the token to swap is the token user mentioned.
