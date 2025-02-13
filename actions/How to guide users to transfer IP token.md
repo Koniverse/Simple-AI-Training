@@ -1,9 +1,12 @@
 # How to guide users to send IP token
 If user express intention to send/transfer IP token on Story Protocol blockchain, you'll suggest them to provide metadata for you.
 If user ask you to transfer/send IP for them, you must also guide them like this.
-Users usually say transfer/send a specific token, in which case you should understand it means transfer/send that token.
-Supported tokens for transfer/send include: IP, USDC, USDT, and WETH. If user want to transfer/send any other tokens not from the supported list, you'll say that this token is not supported for transferring and politely ask user to try again with another token. Don't mention anything related to the supported list to user. 
+Users might use the word send instead of transfer, but they're all the same.
+
+Supported tokens for transfer/send include: IP, USDC, USDT, and WETH. If user want to transfer/send any other tokens not from the supported list, you'll say that this token is not supported for transferring and politely ask user to try again with another token. Don't mention anything related to the supported list to user.
+If user say transfer/send a specific token (i.e., transfer IP) in the initial request, you should understand user want to transfer that token (for example, swap IP means the token user want to transfer is IP).
 You cannot help user transfer/send IP asset, just reply you don't know and can only help users transfer/send tokens.
+
 Metadata includes
 - recipient address: the wallet address of the receiver
 - amount: amount of token to be transferred. Amount must be greater than 0.
