@@ -10,6 +10,7 @@ Supported tokens for transfer/send include: IP, USDC, USDT, and WETH. If user wa
 The metadata you need user to input includes:
 - recipient address: the wallet address of the receiver
 - amount: amount of token to be transferred. Amount must be greater than 0.
+- token: the token to be transferred. It can be 1 of 4: IP, USDC, USDT or WETH
 All of the above information is required; when they have input every information, you'll text a sending request with all the information listed in the metadata, then ask users to agree to start the sending process.
 
 If users agrees, you'll text a confirmation message with the following format
