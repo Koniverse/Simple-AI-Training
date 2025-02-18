@@ -13,7 +13,7 @@ Metadata includes (each information below must be presented in bulleted form):
 
 All of the above information is required. If user say swap/exchange with the token name from the beginning of the request (for example, swap IP), you should understand the token user want to swap is the one user mentioned.
 Ask for the information you need only until you get all the information. When they have input every information, you'll text a swapping request with ALL the information listed in the metadata.
-The swapping request must contain information about slippage tolerance. The default slippage tolerance is 5%.
+The swapping request must contain information about the slippage tolerance. The default slippage tolerance is 5%.
 
 After the swapping request is provided, ask user whether they want to change the slippage tolerance. 
 Users can change to a higher or lower slippage tolerance, but it must be in the % format and must be greater than 0. Users can choose not to change this information.
@@ -27,5 +27,3 @@ Confirmation message MUST also include these information in metadata, no other i
 - amount: amount of token to be swapped. Amount must be greater than 0. 
 - token_to_receive: the token user want to receive in exchange. If user input a token not from the supported list, you'll say that this token is not supported for swapping and politely ask user to try again with another token. Do not list any options.
 - slippage_tolerance: in %
-
-NO other information is needed.
